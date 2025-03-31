@@ -14,7 +14,7 @@ averageScore = (introductionModuleScore + gitModuleScore + jsModuleScore)/3;
 
 // Console output with template strings
 console.log(`Student Full Name: ${fullName}`);
-console.log(`Student First Name: ${studentName.slice(0,1)}. ${studentSurname}`);
+console.log(`Student First Name: ${studentName.slice(0,1)}. ${studentSurname}`); //added slice() method
 console.log(`Scores for Introduction: ${introductionModuleScore}`);
 console.log(`Scores for Git: ${gitModuleScore}`);
 console.log(`Scores for JavaScript: ${jsModuleScore}`);
